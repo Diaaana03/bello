@@ -1,0 +1,84 @@
+@media (max-width: 1199px){
+    .dog {
+        bottom: -80px;
+    }
+}
+
+@media (max-width: 991px){
+    .container {
+        max-width: 961px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .container {
+        max-width: 737px;
+    }
+    .dog {
+        display: none;
+    }
+    .insurance-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 70px;
+    }
+}
+
+@media (max-width: 480px){
+    .container {
+        max-width: 450px;
+    }
+    .insurance-grid {
+        grid-template-columns: 1fr;
+        grid-row-gap: 70px;
+    }
+    .section-title {
+        font-size: 36px;
+        line-height: 35px;
+    }
+    .section-desc {
+        font-size: 14px;
+    }
+    .umbrella {
+        width: 350px;
+    }
+}
+
+@media (max-width: 375px){
+    .container {
+        max-width: 365px;
+    }
+    .section-title {
+        font-size: 32px;
+    }
+    .section-desc {
+        font-size: 12px;
+    }
+    .umbrella {
+        width: 300px;
+        top: -82px;
+    }
+}
+
+@media (max-width: 320px){
+    .container {
+        max-width: 310px;
+    }
+    .section-suptitle {
+        font-size: 12px;
+    }
+    .section-title {
+        font-size: 27px;
+        margin: 18px 0 19px;
+    }
+    .section-desc {
+        line-height: 22px;
+    }
+    .umbrella {
+        width: 270px;
+        top: -65px;
+    }
+    .insurance-card-title {
+        font-size: 19px;
+    }
+}
